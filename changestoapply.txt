@@ -1,0 +1,21 @@
+self.Bind(wx.EVT_KEY_DOWN, self.KeyPressFcn)
+
+def keyPressFcn(self, event):
+
+    keycode = event.GetKeyCode()
+    
+    if keycode = "N"
+        self.imList.Select_Next
+    elif keycode = "B"
+        self.imList.Select_Previous
+    elif keycode = "W"
+        self.ChangeColor('#FFFFFF')
+    elif keycode = "K"
+        self.ChangeColor('#000000')
+    elif keycode = "Up Arrow"
+        
+    elif keycode = "Down Arrow"
+        
+    event.Skip()
+    
+    # need to add binding for wx.EVT_TEXT for SpinCtrl's
