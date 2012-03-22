@@ -231,9 +231,9 @@ class Main(wx.Frame):
                 wx.BITMAP_TYPE_ICO))
 
         info.SetName('Date Stamper')
-        info.SetVersion('1.0')
+        info.SetVersion('2.0')
         info.SetDescription(description)
-        info.SetCopyright('(C) 2009 Jonathan Suever')
+        info.SetCopyright('(C) 2012 Jonathan Suever')
         info.SetWebSite('http://www.suever.net')
 
         wx.AboutBox(info)
